@@ -3,7 +3,7 @@
 Simple Android app that listen to a predefined SMS message and shuts down the device when it arrives. REQUIRES ROOT! It's useful if you happen to lose your device or if it got stolen.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/122756045/214705689-2980767b-12e2-4e12-9892-0f96bef0c219.png" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/122756045/214705689-2980767b-12e2-4e12-9892-0f96bef0c219.png" width=30% height=30%>
 </p>
 
 This is the very first Android app I wrote, and I'm not fluent in Java, so there is probably some things I could have done better. It is not to the extent of this README file to teach you how to root your device. You should do it by yourself at your own risk. All I can do is give you a hint: search for Magisk!
