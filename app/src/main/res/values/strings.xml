@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShutdownSMS</string>
+    <string name="toggle_text_btn">Toggle ShutdownSMS on or off</string>
+    <string name="info_text">If ShutdownSMS is on, your device will be turned off if it receives the predefined SMS message bellow. If it is off, nothing will happen upon receive of this message.</string>
+    <string name="change_sms_text">SMS message to be recognized</string>
+    <string name="confirm_btn_text">Confirm</string>
+</resources>

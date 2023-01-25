@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_text_btn"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <ToggleButton
+        android:id="@+id/toggle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:checked="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_sms_text"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="48dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+
+        <EditText
+            android:id="@+id/edit_sms_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="12dp"
+            android:inputType="textNoSuggestions"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/confirm_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_btn_text"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
