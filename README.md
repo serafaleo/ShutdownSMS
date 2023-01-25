@@ -1,5 +1,7 @@
 # ShutdownSMS
-Simple Android app that listen to a predefined SMS message and shuts down the device when it arrives. REQUIRES ROOT! This is the very first Android app I wrote, and I'm not fluent in Java, so there is probably some things I could have done better. It is not to the extent of this README file to teach you how to root your device. You should do it by yourself at your own risk. All I can do is give you a hint: search for Magisk!
+Simple Android app that listen to a predefined SMS message and shuts down the device when it arrives. REQUIRES ROOT! It's useful if you happen to lose your device or if it got stolen.
+
+This is the very first Android app I wrote, and I'm not fluent in Java, so there is probably some things I could have done better. It is not to the extent of this README file to teach you how to root your device. You should do it by yourself at your own risk. All I can do is give you a hint: search for Magisk!
 
 ## Download
 You can grab an APK at the Releases section of this repostitory: https://github.com/serafaleo/ShutdownSMS/releases
