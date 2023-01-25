@@ -77,11 +77,13 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        final String final_sms_text = sms_text;
-
         confirm_btn.setOnClickListener(view ->
         {
+            final String final_sms_text = preferences.getString(getString(R.string.sms_text_preference),
+                                                                getString(R.string.undefined_sms_text));
+
             String entered_text = edit_sms_text.getText().toString();
+
             if(entered_text.equals(final_sms_text))
             {
                 Toast.makeText(this, "SMS text unchanged", Toast.LENGTH_LONG).show();
@@ -141,7 +143,7 @@ public class MainActivity extends AppCompatActivity
                 str_builder.append(line);
             }
 
-            if(!str_builder.toString().equals("Permission denied"))
+            if(!str_builder.toString().equals(getString(R.string.permission_denied_text)))
             {
                 return true;
             }
