@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toggle_text_btn">Ative ou desative o ShutdownSMS</string>
+    <string name="info_text">Se o ShutdownSMS estiver ativado, seu dispositivo será desligado ao receber o SMS pré-definido abaixo. Se estiver desativado, nada irá acontecer ao receber esse SMS.</string>
+    <string name="change_sms_text">Mensagem SMS para ser reconhecida</string>
+    <string name="confirm_btn_text">Confirmar</string>
+    <string name="root_not_installed_msg">Acesso root não está instalado no seu dispositivo. Você não pode utilizar esse aplicativo sem ele.</string>
+    <string name="root_denied_msg">Acesso root está instalado mas foi negado. Por favor, conceda-o para utilizar o aplicativo.</string>
+    <string name="sms_unchanged_msg">Mensagem SMS inalterada</string>
+    <string name="sms_changed_msg1">Mensagem SMS mudada de \"</string>
+    <string name="sms_changed_msg2">\" para \"</string>
+</resources>

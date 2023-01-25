@@ -86,12 +86,12 @@ public class MainActivity extends AppCompatActivity
 
             if(entered_text.equals(final_sms_text))
             {
-                Toast.makeText(this, "SMS text unchanged", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, getString(R.string.sms_unchanged_msg), Toast.LENGTH_LONG).show();
             }
             else
             {
                 storeSMSTextString(entered_text);
-                String toast_msg = "SMS text changed from \"" + final_sms_text + "\" to \"" + entered_text + "\"";
+                String toast_msg = getString(R.string.sms_changed_msg1) + final_sms_text + getString(R.string.sms_changed_msg2) + entered_text + "\"";
                 Toast.makeText(this, toast_msg, Toast.LENGTH_LONG).show();
             }
         });
