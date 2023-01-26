@@ -1,6 +1,6 @@
 # ShutdownSMS
 
-Simple Android app that listen to a predefined SMS message and shuts down the device when it arrives. REQUIRES ROOT! It's useful if you happen to lose your device or if it got stolen. Just for some piece of mind...
+Simple Android app that listen to a predefined SMS message and shuts down the device when it arrives. REQUIRES ROOT! It's useful if you happen to lose your device or if it got stolen. On most devices, if not all of them, you can enable encryption, which means that no data can be read if the device is not booted. Just for some piece of mind...
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/122756045/214705689-2980767b-12e2-4e12-9892-0f96bef0c219.png" width=30% height=30%>
